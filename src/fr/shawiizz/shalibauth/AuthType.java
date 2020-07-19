@@ -1,2 +1,2 @@
 package fr.shawiizz.shalibauth;
-public enum AuthType {MOJANG, OFFLINE;}
+public enum AuthType {MOJANG, CRACK;}

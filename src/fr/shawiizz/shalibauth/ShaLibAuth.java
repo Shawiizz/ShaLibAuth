@@ -9,7 +9,7 @@ import java.security.SecureRandom;
 import java.util.Base64;
 import java.util.UUID;
 
-public class Authentification {
+public class ShaLibAuth {
     public static String username = "";
     public static String token = "";
     public static String uuid = "";
