@@ -1,0 +1,23 @@
+<div align="center">
+  <h1>ShaLibAuth 0.1</h1>
+
+### Java library to authenticate a Minecraft Java account to Mojang servers and get infos about it (Uuid, Token, ClientToken, Username) ! This also support offline mode (crack accounts)
+_This shouldn't have any bug but if you have one you can report it._
+</div>
+
+**Code**
+------
+This code is to authenticate a Minecraft account in online mode (to mojang servers) :
+> ShaLibAuth.login("email", "password", AuthType.MOJANG);
+<br>
+
+And for the offline mode (crack account) :
+> ShaLibAuth.login("email", "password", AuthType.CRACK);
+
+And it's all ! You can after get infos of the logged account using these String variables in ShaLibAuth class :
+- username
+- token
+- uuid
+- clientToken
+<br>
+(clientToken isn't set with crack mode)
